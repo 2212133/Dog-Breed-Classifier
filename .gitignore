@@ -1,0 +1,35 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+env/
+.env/
+venv/
+.venv/
+
+# Ignore model files
+*.pth
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore compiled extensions
+*.so
+
+# Ignore package builds
+build/
+dist/
+*.egg-info/
